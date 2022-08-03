@@ -5,3 +5,13 @@ This repository contains shell scripts, configurations, or other convenient stuf
 
 ## Contents
 Coming soon
+
+### Importing and Exporting `ini` files
+To save all (dump) dconf settings into ini file:
+```sh
+dconf dump / > dconf-settings.ini
+````
+To restore them:
+```sh
+dconf load / < dconf-settings.ini
+```
